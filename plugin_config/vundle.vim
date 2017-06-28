@@ -15,7 +15,9 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'Drawit'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Shougo/unite.vim'
-
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'pangloss/vim-javascript'
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须

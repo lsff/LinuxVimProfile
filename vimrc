@@ -1,3 +1,4 @@
+command! Reloadsrc  source ~/.vim/vimrc
 set nocompatible
 syntax on
 filetype on
@@ -26,9 +27,9 @@ set laststatus=2 "窗口底下状态栏常在
 
 let mapleader = ","
 
-autocmd FileType ruby set shiftwidth=2
-autocmd FileType ruby set tabstop=2
-autocmd FileType ruby set softtabstop=2
+autocmd FileType ruby,html,scss,css,eruby set shiftwidth=2 | set tabstop=2 | set softtabstop=2 | set expandtab
+
+set scrolloff=5
 
 source ~/.vim/plugin_config/vundle.vim
 source ~/.vim/plugin_config/airline.vim
