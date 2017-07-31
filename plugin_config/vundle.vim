@@ -19,6 +19,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'pangloss/vim-javascript'
 Plugin 'elzr/vim-json'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'Raimondi/delimitMate'
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须
