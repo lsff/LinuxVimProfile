@@ -36,3 +36,5 @@ source ~/.vim/plugin_config/airline.vim
 source ~/.vim/plugin_config/vim_online_thesaurus.vim
 source ~/.vim/plugin_config/nerdtree.vim
 source ~/.vim/plugin_config/unite.vim
+source ~/.vim/plugin_config/vim_autoformat.vim
+source ~/.vim/keymap.vim
