@@ -1,4 +1,4 @@
-""状态mode的缩写 Simple is Best!
+"状态mode的缩写 Simple is Best!
 let g:airline_mode_map = {
      \ '__' : '-',
      \ 'n'  : 'N',
@@ -39,6 +39,11 @@ let g:airline#extensions#tabline#right_alt_sep = ''
 
 let g:airline#extensions#tabline#show_close_button = 0
 let g:airline#extensions#tabline#close_symbol = 'X'
+
+"显示powerline字体
+let g:airline_powerline_fonts = 1
+
+let g:airline_theme = 'bubblegum'
 
 nmap <leader>1 <Plug>AirlineSelectTab1
 nmap <leader>2 <Plug>AirlineSelectTab2

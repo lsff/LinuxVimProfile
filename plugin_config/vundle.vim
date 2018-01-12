@@ -21,6 +21,10 @@ Plugin 'elzr/vim-json'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Raimondi/delimitMate'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须
