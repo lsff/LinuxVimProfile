@@ -18,14 +18,19 @@ nmap <silent> <leader>tt :AirlineToggle<cr>
 "重新刷新airline
 nmap <silent> <leader>tr :AirlineRefresh<cr> 
 
+let g:airline_powerline_fonts = 1  
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#show_tabs = 1
 let g:airline#extensions#tabline#exclude_preview = 1
-let g:airline#extensions#tabline#tab_nr_type = 2
+let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline#extensions#tabline#show_tab_nr = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline#extensions#tabline#exclude_preview = 1
+
+" 关闭状态显示空白符号计数,这个对我用处不大"
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#whitespace#symbol = '!'
 
 let g:airline#extensions#tabline#fnamemod = ':p:t' "只显示文件名 More info Refers To help filename-modifiers
 "let g:airline#extensions#tabline#fnamecollapse = 1
@@ -100,3 +105,6 @@ nmap <leader>d6 <Plug>AirlineDeleteTab6
 nmap <leader>d7 <Plug>AirlineDeleteTab7
 nmap <leader>d8 <Plug>AirlineDeleteTab8
 nmap <leader>d9 <Plug>AirlineDeleteTab9
+
+
+let g:airline_theme='bubblegum'
