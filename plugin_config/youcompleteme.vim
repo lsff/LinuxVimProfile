@@ -2,12 +2,6 @@ let g:ycm_server_python_interpreter='/usr/bin/python'
 let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 "let ycmd.confirm_extra_conf=0
 
-" 补全功能在注释中同样有效                                         
-let g:ycm_complete_in_comments=1 
-
-" 开启tags补全引擎                                                 
-let g:ycm_collect_identifiers_from_tags_files=1
-
 let g:ycm_complete_in_comments = 1  "在注释输入中也能补全
 let g:ycm_complete_in_strings = 1   "在字符串输入中也能补全
 let g:ycm_use_ultisnips_completer = 1 "提示UltiSnips

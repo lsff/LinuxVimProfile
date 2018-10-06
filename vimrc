@@ -20,8 +20,6 @@ set cindent "c语言缩进
 set smartindent
 
 set nu
-"hi Normal  ctermfg=252 ctermbg=none
-
 set laststatus=2 "窗口底下状态栏常在
 
 let mapleader = ","
@@ -41,6 +39,8 @@ set foldmethod=syntax
 
 highlight CursorLine   cterm=NONE ctermbg=Black ctermfg=Green guibg=NONE guifg=NONE
 set hlsearch
+"hi visual color
+highlight Visual term=none cterm=none ctermfg=0 ctermbg=222
 
 source ~/.vim/plugin_config/vundle.vim
 source ~/.vim/plugin_config/youcompleteme.vim
@@ -64,10 +64,17 @@ source ~/.vim/bundle/DoxygenToolkit.vim
 
 autocmd BufNewFile,BufRead *.jce set filetype=cpp
 
+set termguicolors
 colorscheme molokai
-"hi visual color
-highlight Visual term=none cterm=none ctermfg=0 ctermbg=222
 
+au BufNewFile,BufRead *.py
+            \ set tabstop=4
+            \ set softtabstop=4
+            \ set shiftwidth=4
+            \ set textwidth=79
+            \ set expandtab
+            \ set autoindent
+            \ set fileformat=unix
 
 set incsearch
 set list
@@ -75,3 +82,8 @@ set listchars=tab:>-,trail:-
 
 set rtp+=~/.fzf
 
+autocmd VimEnter,ColorScheme * highlight Normal ctermbg=none
+autocmd VimEnter,ColorScheme * highlight LineNr ctermbg=none
+autocmd VimEnter,ColorScheme * highlight SignColumn ctermbg=none
+autocmd VimEnter,ColorScheme * highlight VertSplit ctermbg=none
+autocmd VimEnter,ColorScheme * highlight NonText ctermbg=none

@@ -25,7 +25,7 @@ Plugin 'jlanzarotta/bufexplorer'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plugin 'mileszs/ack.vim'
 Plugin 'dyng/ctrlsf.vim'
 
@@ -34,8 +34,9 @@ Plugin 'google/vim-codefmt'
 " Also add Glaive, which is used to configure codefmt's maktaba flags. See
 " " `:help :Glaive` for usage.
 Plugin 'google/vim-glaive'
-
-
+Plugin 'iCyMind/NeoSolarized'
+Plugin 'jerrymarino/SwiftPlayground.vim'
+Plugin 'fatih/vim-go'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 " 你的所有插件需要在下面这行之前

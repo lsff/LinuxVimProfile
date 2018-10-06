@@ -12,4 +12,4 @@ nnoremap <silent> <F7> :make cleanall  -C %:p:h<CR>
 
 nnoremap <silent> <F12> :FormatCode<CR>
 
-
+autocmd FileType go noremap <F5> <Esc>:w<CR>:GoRun<CR>
