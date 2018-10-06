@@ -25,6 +25,7 @@ Plugin 'jlanzarotta/bufexplorer'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plugin 'mileszs/ack.vim'
 Plugin 'dyng/ctrlsf.vim'
