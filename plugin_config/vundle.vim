@@ -38,6 +38,8 @@ Plugin 'google/vim-glaive'
 Plugin 'iCyMind/NeoSolarized'
 Plugin 'jerrymarino/SwiftPlayground.vim'
 Plugin 'fatih/vim-go'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'SirVer/ultisnips'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 " 你的所有插件需要在下面这行之前
