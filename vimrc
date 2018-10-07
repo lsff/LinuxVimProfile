@@ -37,11 +37,6 @@ set encoding=utf-8
 
 set foldmethod=syntax
 
-highlight CursorLine   cterm=NONE ctermbg=Black ctermfg=Green guibg=NONE guifg=NONE
-set hlsearch
-"hi visual color
-highlight Visual term=none cterm=none ctermfg=0 ctermbg=222
-
 source ~/.vim/plugin_config/vundle.vim
 source ~/.vim/plugin_config/youcompleteme.vim
 source ~/.vim/plugin_config/airline.vim
@@ -64,8 +59,13 @@ source ~/.vim/bundle/DoxygenToolkit.vim
 
 autocmd BufNewFile,BufRead *.jce set filetype=cpp
 
-set termguicolors
+"set termguicolors
 colorscheme molokai
+set cursorline
+highlight CursorLine  cterm=NONE ctermbg=Black ctermfg=NONE guibg=Black guifg=NONE
+set hlsearch
+"hi visual color
+highlight Visual term=none cterm=none ctermfg=0 ctermbg=222
 
 au BufNewFile,BufRead *.py
             \ set tabstop=4
