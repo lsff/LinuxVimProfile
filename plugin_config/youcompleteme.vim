@@ -14,6 +14,7 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 "let g:ycm_autoclose_preview_window_after_completion = 1
 
 nnoremap <A-d> :YcmCompleter GoToDeclaration<CR>
+nnoremap <F1> :YcmCompleter GoTo<CR>
 nnoremap <F10> :YcmCompleter GoToDefinition<CR>
 nnoremap <F11>  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 

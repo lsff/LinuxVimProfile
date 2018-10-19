@@ -18,7 +18,7 @@ Plugin 'Shougo/unite.vim'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'pangloss/vim-javascript'
 Plugin 'elzr/vim-json'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe', {'pinned': 1} "不自动更新
 Plugin 'Raimondi/delimitMate'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'jlanzarotta/bufexplorer'
@@ -41,6 +41,8 @@ Plugin 'fatih/vim-go'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'SirVer/ultisnips'
 "Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'jreybert/vimagit'
+Plugin 'airblade/vim-gitgutter'
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须
