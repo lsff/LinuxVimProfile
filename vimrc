@@ -80,6 +80,8 @@ set incsearch
 set list
 set listchars=tab:>-,trail:-
 
+autocmd BufNewFile,BufRead,BufEnter *.go set nolist
+
 set rtp+=~/.fzf
 
 autocmd VimEnter,ColorScheme * highlight Normal ctermbg=none
