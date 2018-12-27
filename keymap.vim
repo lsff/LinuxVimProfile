@@ -6,10 +6,9 @@ nmap <Leader>m :wa<CR>:make<CR><CR>:cw<CR>
 
 nnoremap <leader>q :close<CR>
 
-nnoremap <silent> <F5> :make -j4 -C %:p:h<CR>
+nnoremap <silent> <F5> :make -j124 -C %:p:h<CR>
 nnoremap <silent> <F6> :make clean  -C %:p:h<CR>
 nnoremap <silent> <F7> :make cleanall  -C %:p:h<CR>
 
 nnoremap <silent> <F12> :FormatCode<CR>
 
-autocmd FileType go noremap <F5> <Esc>:w<CR>:GoRun<CR>

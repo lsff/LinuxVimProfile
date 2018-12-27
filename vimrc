@@ -56,8 +56,7 @@ source ~/.vim/plugin_config/ack.vim
 source ~/.vim/keymap.vim
 source ~/.vim/plugin_config/vim-cpp-enhanced-highlight.vim
 source ~/.vim/bundle/DoxygenToolkit.vim
-
-autocmd BufNewFile,BufRead *.jce set filetype=cpp
+source ~/.vim/autocmd.vim
 
 "set termguicolors
 colorscheme molokai

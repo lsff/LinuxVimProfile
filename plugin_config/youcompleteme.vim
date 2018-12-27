@@ -10,7 +10,7 @@ let g:ycm_goto_buffer_command = 'horizontal-split'
 let g:ycm_always_populate_location_list = 1
 
 "自动关闭preview-window
-let g:ycm_autoclose_preview_window_after_insertion = 1
+"let g:ycm_autoclose_preview_window_after_insertion = 1
 "let g:ycm_autoclose_preview_window_after_completion = 1
 
 nnoremap <A-d> :YcmCompleter GoToDeclaration<CR>
@@ -26,3 +26,4 @@ nnoremap <F12> :YcmCompleter FixIt<CR>
 let g:ycm_key_invoke_completion = '<C-a>'
 
 let g:ycm_show_diagnostics_ui=0
+let g:ycm_always_populate_location_list=1

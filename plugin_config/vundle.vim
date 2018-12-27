@@ -43,6 +43,7 @@ Plugin 'SirVer/ultisnips'
 "Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'jreybert/vimagit'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须
