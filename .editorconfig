@@ -1,0 +1,36 @@
+;.editorconfig
+
+root = true[**.js]
+path=~/.vim/bundle/vim-jsbeautify/plugin/beautify.js
+;默认javascript解释器为'node' ，or “nodejs” or 'v8'，以本地解释环境而定.
+bin=node
+indent_style = space
+indent_size = 4
+
+;.editorconfig
+
+root = true
+
+[**.js]
+; path to optional external js beautifier, default is vim-jsbeautify/plugin/lib
+path=~/.vim/bundle/vim-jsbeautify/plugin/lib/js/lib/beautify.js
+; Javascript interpreter to be invoked by default 'node'
+bin=node
+indent_style = space
+indent_size = 4
+
+[**.css]
+path=~/.vim/bundle/vim-jsbeautify/plugin/lib/js/lib/beautify-css.js
+indent_style = space
+indent_size = 4
+
+[**.html]
+; Using special comments
+; And such comments or apply only in global configuration
+; So it's best to avoid them
+; path=~/.vim/bundle/vim-jsbeautify/plugin/lib/js/lib/beautify-html.js
+; max_char=78
+; brace_style=expand
+indent_style = space
+indent_size = 4
+

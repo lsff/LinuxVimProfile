@@ -44,6 +44,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'jreybert/vimagit'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'maksimr/vim-jsbeautify'
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须
