@@ -12,3 +12,4 @@ nnoremap <silent> <F7> :make cleanall  -C %:p:h<CR>
 
 nnoremap <silent> <F12> :FormatCode<CR>
 
+nmap <F9> :TagbarToggle<CR>

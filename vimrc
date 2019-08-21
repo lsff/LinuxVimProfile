@@ -57,6 +57,7 @@ source ~/.vim/keymap.vim
 source ~/.vim/plugin_config/vim-cpp-enhanced-highlight.vim
 source ~/.vim/bundle/DoxygenToolkit.vim
 source ~/.vim/autocmd.vim
+source ~/.vim/plugin_config/tagbar.vim
 
 "set termguicolors
 colorscheme molokai
